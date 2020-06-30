@@ -45,6 +45,8 @@ For this particular analysis, I used a subset of the dataset that represents onl
 These subsets are first examined for missing values which could be inconvenient for computation and otherwise misleading to the predictive model. Moreover, the parameter values are normalized to eliminate in the range of values while keeping the distribution and information embedded in the data. Mapping of categorical values to representative numerical values is performed as part of cleaning.
 Moreover, feature reduction is applied on the dataset. Since features with constant values doesn’t not contribute much to the classification algorithm, they are dropped before the data is fed into the classification algorithm. Feature creation is also used to make a meaningful label for the regression algorithm. 
 
+Dataset Access: http://web.stanford.edu/group/deepsolar/deepsolar_tract.csv
+
 
 ## Methodology Followed
 
